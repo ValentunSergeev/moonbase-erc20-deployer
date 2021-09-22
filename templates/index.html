@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+</head>
+<body>
+<form action="{{url_for("deploy")}}" method="post">
+        <p>
+	    <label for="name">Name</label>
+	    <input type="text" name="name">
+	</p>
+	<p>
+	    <label for="symbol">Symbol</label>
+	    <input type="text" name="symbol">
+	</p>
+    <p>
+	    <label for="total_supply">Total supply</label>
+	    <input type="number" name="total_supply">
+	</p>
+	<p>
+	    <input type="submit">
+	</p>
+    </form>
+</body>
+</html>
